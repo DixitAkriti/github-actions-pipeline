@@ -59,6 +59,7 @@ job = aip.PipelineJob(
     display_name=DISPLAY_NAME,
     template_path="intro_pipeline.yaml",
     pipeline_root=PIPELINE_ROOT,
+    enable_caching=False,
 )
 
 job.run(service_account="vertex-sa@sandbox-dev-dbg.iam.gserviceaccount.com")
