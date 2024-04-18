@@ -57,4 +57,4 @@ jobs:
                          google-cloud-storage \
                          kfp \
                          google-cloud-pipeline-components
-          python3 helloworldpipeline.py;
+          python3 model_upload_and_deploy.py;
